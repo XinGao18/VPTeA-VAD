@@ -7,7 +7,6 @@ VPTeA-VAD is a two-stage vision-language framework for weakly supervised video a
 ## Paper Information
 
 - Paper title: VPTeA-VAD: Verbalized Prompts and Multi-Scale Temporal Adapters for Video Anomaly Detection
-- Authors: Xin Gao, Tianlun Pan, Yuxuan Zhao
 
 The central challenge is that video-level supervision alone does not clearly define the semantic or temporal boundaries of anomalous events. VPTeA-VAD describes normal and abnormal behaviors with a language knowledge base, then performs detection with multi-scale temporal modeling and cross-modal alignment.
 
@@ -70,4 +69,3 @@ We thank the following works for providing important foundations and references 
 - [VERA](https://github.com/vera-framework/VERA): for the verbalized learning idea and reference data-preparation workflow for video anomaly detection.
 - [VadCLIP](https://github.com/nwpu-zxr/VadCLIP/tree/main): for the CLIP-feature-based weakly supervised video anomaly detection baseline, data organization, and evaluation pipeline.
 
-Building on these works, this project introduces a prompt-pair knowledge base, a Multi-Scale Temporal Adapter, and Visual Prompt Fusion.
