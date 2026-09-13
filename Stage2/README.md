@@ -14,17 +14,23 @@ The following resources are also required:
 
 ## UCF-Crime Training and Inference
 
-Run UCF training from the Stage 2 directory:
+Pretrained UCF-Crime model weights are provided through Baidu Netdisk:
+
+[Download the pretrained model](https://pan.baidu.com/s/1O1ShtqWh6QCyrhHSWp2J0A?pwd=dqr7) (extraction code: `dqr7`)
+
+After downloading the model, place it at the default path `model/model_ucf.pth`. After completing the data and CLIP preparation described above, you can directly evaluate the pretrained model without retraining.
+
+Run UCF inference from the Stage 2 directory:
 
 ```powershell
 cd Stage2
-python src\ucf_train.py
+python src\ucf_test.py
 ```
 
-After training generates `model/model_ucf.pth`, run UCF inference:
+The script uses the provided `model/model_ucf.pth` by default and prints the detection performance, including AUC, AP, and average mAP. To train or retrain the UCF model, run:
 
 ```powershell
-python src\ucf_test.py
+python src\ucf_train.py
 ```
 
 UCF uses the following defaults:
@@ -37,17 +43,10 @@ UCF uses the following defaults:
 | Ground truth | `list/gt_ucf.npy` |
 | Temporal segments | `list/gt_segment_ucf.npy` |
 | Class labels | `list/gt_label_ucf.npy` |
+| Pretrained model | `model/model_ucf.pth` |
 | Batch size | `32` |
 | Maximum epochs | `5` |
 | Learning rate | `5e-6` |
-
-During training, Normal and anomalous classes are sampled separately. Validation reports AUC, AP, and average mAP. The default model and checkpoint outputs are:
-
-```text
-Stage2/model/model_ucf.pth
-Stage2/model/checkpoint.pth
-Stage2/model/model_cur.pth
-```
 
 ## XD-Violence Training and Inference
 
