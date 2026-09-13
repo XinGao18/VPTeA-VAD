@@ -1,0 +1,75 @@
+{
+  "categories": {
+    "ucf": [
+      "Abuse",
+      "Arrest",
+      "Arson",
+      "Assault",
+      "Burglary",
+      "Explosion",
+      "Fighting",
+      "RoadAccidents",
+      "Robbery",
+      "Shooting",
+      "Shoplifting",
+      "Stealing",
+      "Vandalism"
+    ],
+    "xd": []
+  },
+  "prompt_pairs": {
+    "Abuse": {
+      "negative": "A person is seen walking on a sidewalk next to a road, with multiple vehicles passing by. The person appears to be interacting with another individual standing nearby, suggesting a sustained one-sided interaction.",
+      "positive": "One person repeatedly strikes or forcefully handles another person in a sustained one-sided interaction."
+    },
+    "Arrest": {
+      "negative": "Police officers are seen holding a person's arms and placing handcuffs on them.",
+      "positive": "Police officers hold a person's arms and place handcuffs on them."
+    },
+    "Arson": {
+      "negative": "A person is seen walking on a street at night, with no visible fire, flame, or ignition action.",
+      "positive": "A person holds a flame or ignition source against a building, vehicle, or object."
+    },
+    "Assault": {
+      "negative": "Two individuals are seen standing and conversing on a sidewalk, appearing to be in a non-aggressive stance, suggesting a non-confrontational movement.",
+      "positive": "One person hits, kicks, or punches another person during a short physical attack."
+    },
+    "Burglary": {
+      "negative": "A person enters a building and searches indoor belongings.",
+      "positive": "A person enters a building and searches drawers, rooms, or indoor belongings."
+    },
+    "Explosion": {
+      "negative": "A car is parked on a road with debris scattered around, indicating recent activity. No visible human ignition action or flying debris.",
+      "positive": "A sudden blast rapidly throws debris outward and produces a visible shock or burst."
+    },
+    "Fighting": {
+      "negative": "Two individuals are standing and conversing in a lobby area, with one person bending over near a counter, suggesting a casual interaction rather than a physical altercation.",
+      "positive": "People are engaged in a physical altercation, pushing, shoving, and kicking each other."
+    },
+    "RoadAccidents": {
+      "negative": "A vehicle is seen driving on a road, approaching a parked car, and stopping near it, with no visible collision or accident.",
+      "positive": "A vehicle collides with another vehicle or obstacle, crashes, or overturns on a road."
+    },
+    "Robbery": {
+      "negative": "A person enters a building and searches indoor belongings.",
+      "positive": "A person visibly uses force against another person while taking an item or money at a business or public place."
+    },
+    "Shooting": {
+      "negative": "Several individuals are seen standing and interacting around a counter, with one person lying on the ground, suggesting a physical altercation or struggle.",
+      "positive": "A person aims or fires a gun toward another person, vehicle, or object."
+    },
+    "Shoplifting": {
+      "negative": "A person is seen walking past the store entrance, carrying a large item of clothing, suggesting they are leaving the store with stolen goods.",
+      "positive": "A person is seen carrying a large item of clothing past the checkout counter, suggesting an attempt to leave the store with stolen goods."
+    },
+    "Stealing": {
+      "negative": "A person is seen walking through a narrow corridor, carrying an object, suggesting an attempt to remove or hide an item from the vehicle.",
+      "positive": "A person is seen standing near a vehicle, interacting with it, suggesting an attempt to remove or hide an item from the vehicle."
+    },
+    "Vandalism": {
+      "negative": "A person is seen walking on a street, seemingly engaged in an activity that could be considered vandalism.",
+      "positive": "A person strikes, breaks, sprays, or otherwise damages a wall, vehicle, or other object."
+    }
+  },
+  "version": 2
+}

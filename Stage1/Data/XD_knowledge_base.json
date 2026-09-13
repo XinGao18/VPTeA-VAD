@@ -1,0 +1,40 @@
+{
+  "categories": {
+    "ucf": [],
+    "xd": [
+      "B1",
+      "B2",
+      "B4",
+      "B5",
+      "B6",
+      "G"
+    ]
+  },
+  "prompt_pairs": {
+    "B1": {
+      "negative": "Two individuals are standing closely together, facing each other, and appear to be in a confrontational stance, indicating a physical altercation.",
+      "positive": "People exchange pushes, punches, or kicks in a mutual physical struggle."
+    },
+    "B2": {
+      "negative": "A person stands alone on a hilltop, looking out over a city at night, with no visible interaction or confrontation with others.",
+      "positive": "A person aims or fires a gun toward another person, vehicle, or object."
+    },
+    "B4": {
+      "negative": "A man in a black hoodie and black cap is walking on a city street, holding a small object in his hand.",
+      "positive": "A crowd throws objects, pushes through barriers, or clashes in a violent public disturbance."
+    },
+    "B5": {
+      "negative": "A person is standing with their back to the camera, facing another person who is seated and looking up at them. The seated person appears to be in a conversation with the standing person.",
+      "positive": "One person repeatedly strikes or forcefully handles another person in a sustained one-sided interaction."
+    },
+    "B6": {
+      "negative": "A vehicle is seen driving on a road, moving forward without any visible obstacles or collisions.",
+      "positive": "A vehicle collides with another vehicle or obstacle, crashes, or overturns on a road."
+    },
+    "G": {
+      "negative": "A sudden blast produces a large plume of thick, dark smoke, obscuring the view of the vehicle and surrounding area.",
+      "positive": "A sudden blast rapidly throws debris outward and produces a visible shock or burst."
+    }
+  },
+  "version": 2
+}

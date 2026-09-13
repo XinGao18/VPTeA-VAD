@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "datasets": {
+    "ucf": {
+      "Abuse": {
+        "positive": "One person repeatedly strikes or forcefully handles another person in a sustained one-sided interaction.",
+        "negative": "People are sitting or walking together in a calm social interaction."
+      },
+      "Arrest": {
+        "positive": "Police officers hold a person's arms and place handcuffs on them.",
+        "negative": "People are standing and talking together in a public area."
+      },
+      "Arson": {
+        "positive": "A person holds a flame or ignition source against a building, vehicle, or object.",
+        "negative": "A person walks or stands beside a building, vehicle, or object during an ordinary activity."
+      },
+      "Assault": {
+        "positive": "One person hits, kicks, or punches another person during a short physical attack.",
+        "negative": "Two people are talking or walking together in a social interaction."
+      },
+      "Burglary": {
+        "positive": "A person enters a building and searches drawers, rooms, or indoor belongings.",
+        "negative": "A person enters a building and walks through rooms during an ordinary indoor activity."
+      },
+      "Explosion": {
+        "positive": "A sudden blast rapidly throws debris outward and produces a visible shock or burst.",
+        "negative": "People and vehicles move normally through an outdoor scene."
+      },
+      "Fighting": {
+        "positive": "Two or more people exchange pushes, punches, or kicks in a mutual physical struggle.",
+        "negative": "Two or more people walk or talk together in a social interaction."
+      },
+      "RoadAccidents": {
+        "positive": "A vehicle collides with another vehicle or obstacle, crashes, or overturns on a road.",
+        "negative": "Vehicles drive normally along a road while maintaining their lanes."
+      },
+      "Robbery": {
+        "positive": "A person visibly uses force against another person while taking an item or money at a business or public place.",
+        "negative": "A customer hands money to a cashier and receives an item at a checkout counter."
+      },
+      "Shooting": {
+        "positive": "A person aims or fires a gun toward another person, vehicle, or object.",
+        "negative": "A person walks or stands in a public area while carrying out an ordinary activity."
+      },
+      "Shoplifting": {
+        "positive": "A customer conceals store merchandise and carries it past shelves or a checkout area.",
+        "negative": "A customer selects store merchandise and places it in a shopping basket."
+      },
+      "Stealing": {
+        "positive": "A person removes an item from another person's bag, vehicle, or immediate possession.",
+        "negative": "A person carries or hands an item to another person during an ordinary exchange."
+      },
+      "Vandalism": {
+        "positive": "A person strikes, breaks, sprays, or otherwise damages a wall, vehicle, or other object.",
+        "negative": "A person cleans, repairs, or uses a wall, vehicle, or other object normally."
+      }
+    },
+    "xd": {
+      "B1": {
+        "positive": "People exchange pushes, punches, or kicks in a mutual physical struggle.",
+        "negative": "People walk or talk together in a social interaction."
+      },
+      "B2": {
+        "positive": "A person aims or fires a gun toward another person, vehicle, or object.",
+        "negative": "A person walks or stands in a public area during an ordinary activity."
+      },
+      "B4": {
+        "positive": "A crowd throws objects, pushes through barriers, or clashes in a violent public disturbance.",
+        "negative": "A crowd gathers and moves together in an organized public activity."
+      },
+      "B5": {
+        "positive": "One person repeatedly strikes or forcefully handles another person in a sustained one-sided interaction.",
+        "negative": "People sit or walk together in a calm social interaction."
+      },
+      "B6": {
+        "positive": "A vehicle collides with another vehicle or obstacle, crashes, or overturns on a road.",
+        "negative": "Vehicles drive normally along a road while maintaining their lanes."
+      },
+      "G": {
+        "positive": "A sudden blast rapidly throws debris outward and produces a visible shock or burst.",
+        "negative": "People and vehicles move normally through an outdoor scene."
+      }
+    }
+  }
+}

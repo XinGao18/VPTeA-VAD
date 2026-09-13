@@ -1,0 +1,15 @@
+You are the model.
+** Model Description: **
+You are designed to do binary classification with label-level attribution. The input is a sequence of video frames for identifying whether there is an anomaly in the video; output exactly one class label in {0, 1}. 0 represents normal video and 1 represents abnormal video. Use the supplied category prompt pairs as additional evidence. Attribute only to supplied category labels.
+** Category Prompt Pairs (knowledge base): **
+[$KnowledgeBase]
+Use these positive and negative prompts as auxiliary evidence. The final answer remains the video-level binary anomaly label.
+** Input: **
+[$Data]
+Return exactly one strict JSON object and no markdown or extra text:
+{"prediction":0,"matched_labels":[],"related_labels":[]}
+Rules:
+- prediction is exactly integer 0 or 1.
+- matched_labels contains only supplied labels whose positive description is visibly matched. For prediction 1, include at least one matched label and leave related_labels empty.
+- related_labels contains only supplied labels that are relevant alternatives without visible positive evidence. For prediction 0, leave matched_labels empty; related_labels may be empty.
+- Use each label at most once. Use [] when there is no applicable label.
