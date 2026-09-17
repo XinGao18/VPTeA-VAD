@@ -4,12 +4,6 @@
 
 VPTeA-VAD is a two-stage vision-language framework for weakly supervised video anomaly detection (WSVAD). The method is trained with video-level labels, decouples anomaly semantic definition from temporal feature optimization, and supports both video-level coarse-grained detection and frame-level fine-grained localization.
 
-## Paper Information
-
-- Paper title: VPTeA-VAD: Verbalized Prompts and Multi-Scale Temporal Adapters for Video Anomaly Detection
-
-The central challenge is that video-level supervision alone does not clearly define the semantic or temporal boundaries of anomalous events. VPTeA-VAD describes normal and abnormal behaviors with a language knowledge base, then performs detection with multi-scale temporal modeling and cross-modal alignment.
-
 ## Method Overview
 
 Click the figure below to open the original PDF method diagram:
