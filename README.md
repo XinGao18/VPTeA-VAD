@@ -6,8 +6,6 @@ VPTeA-VAD is a two-stage vision-language framework for weakly supervised video a
 
 ## Method Overview
 
-Click the figure below to open the original PDF method diagram:
-
 [![VPTeA-VAD framework](img/VPTeAv2.png)](img/VPTeAv2.pdf)
 
 ### Stage 1: Verbalized Learning
